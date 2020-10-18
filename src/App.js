@@ -8,7 +8,7 @@ import Home from './components/pages/Home'
 function App() {
 	return (
 		<>
-			<Router>
+			<Router basename="/Simple-single-page-React">
 				<Navbar />
 				<Switch>
 					<Route path='/' exact component={Home} />
