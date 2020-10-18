@@ -1,0 +1,30 @@
+a.button
+	display: inline-block
+.button
+	padding: 8px 20px
+	border-radius: 2px
+	outline: none
+	border: none
+	cursor: pointer
+	text-decoration: none
+	&__primary
+		background-color: #fff
+		color: #242424
+		border: 1px solid #fff
+		&:hover
+			background: darken(#fff, 20%)
+			transition: 0.2s
+	&__outline
+		background-color: transparent
+		color: #fff
+		border: 1px solid #fff
+		transition: all 0.3s ease-out
+		&:hover
+			background: #fff
+			color: #242424
+			transition: 0.2s
+	&__medium
+		font-size: 20px
+	&__large
+		padding: 12px 26px
+		font-size: 20px

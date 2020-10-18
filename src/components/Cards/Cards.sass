@@ -1,0 +1,41 @@
+.cards
+	background: #fff
+	margin-bottom: 80px
+	&__container
+		padding: 0 30px
+		display: flex
+		flex-direction: column
+		align-items: center
+		max-width: 1420px
+		margin: 0 auto
+	&__title
+		margin-bottom: 40px
+		text-align: center
+	&__items
+		width: 100%
+		margin-bottom: 24px
+		display: flex
+		flex-direction: row
+		justify-content: center
+		&:last-of-type
+			margin-bottom: 0
+	&__item
+		margin-right: 24px
+		width: 100%
+		&:last-of-type
+			margin-right: 0
+
+@media only screen and (max-width: 1024px)
+	.cards
+		&__items
+			flex-direction: column
+		&__item
+			margin-right: 0
+			margin-bottom: 24px
+			&:last-of-type
+				margin-bottom: 0
+
+@media only screen and (max-width: 1024px)
+	.cards
+		&__title
+			font-size: 24px
