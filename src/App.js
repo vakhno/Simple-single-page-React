@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/Navbar.js';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.sass';
 import Home from './components/pages/Home'
-// import Services from './components/pages/Services'
+import error404 from './components/pages/error404'
 
 function App() {
 	return (
@@ -12,7 +12,7 @@ function App() {
 				<Navbar />
 				<Switch>
 					<Route path='/' exact component={Home} />
-					{/* <Route path='/services' exact component={Services} /> */}
+					<Route component={error404} />
 				</Switch>
 			</Router>
 		</>

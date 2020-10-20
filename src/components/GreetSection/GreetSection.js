@@ -7,7 +7,7 @@ function GreetSection() {
 	return (
 		<div className="greeting">
 			<div className="greeting__container">
-				<video src="videos/video-2.mp4" autoPlay loop muted className="greeting__video" />
+				<video src="/videos/video-2.mp4" autoPlay loop muted className="greeting__video" />
 				<div className="greeting__content">
 					<div className="greeting__info">
 						<h1 className="greeting__title">ADVENTURE AWAITS</h1>
