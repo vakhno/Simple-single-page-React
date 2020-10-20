@@ -1,0 +1,28 @@
+import React from 'react'
+import './Input.sass'
+import PropTypes from 'prop-types'
+
+const Input = ({ customClass, inputStyle, type, name, placeholder, onChange, value }) => {
+	return <input type={type} name={name} placeholder={placeholder} className={`${customClass} ${inputStyle}`} onChange={onChange} value={value} />
+}
+
+Input.propTypes = {
+	customClass: PropTypes.string,
+	inputStyle: PropTypes.string,
+	type: PropTypes.string,
+	name: PropTypes.string,
+	placeholder: PropTypes.string,
+	value: PropTypes.string,
+	onChange: PropTypes.func,
+}
+
+Input.defaultProps = {
+	onChange: () => { },
+	inputStyle: 'button__primary',
+	type: 'text',
+	name: '',
+	placeholder: '',
+	value: '',
+}
+
+export default Input

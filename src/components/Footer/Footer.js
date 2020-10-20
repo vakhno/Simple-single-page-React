@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Button from '../Button/Button.js'
+import Input from '../Input/Input.js'
 import SubModal from '../SubscriptionModal/SubscriptionModal.js'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -104,8 +105,8 @@ function Footer() {
 				<p className="footer__title">Lorem ipsum dolor sit amet consectetur</p>
 				<div className="footer__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate deleniti voluptate quaerat perferendis tenetur alias dolore, placeat sit? Et animi neque placeat hic nulla voluptates excepturi repellendus. Laborum, nihil.</div>
 				<form onSubmit={submitForm} className="footer__form">
-					<input type="text" name="name" placeholder="Your Name" className={`footer__input ${formInputs.name ? '' : 'error-input'}`} onChange={valueToState} value={name} />
-					<input type="email" name="email" placeholder="Your Email" className={`footer__input ${formInputs.email ? '' : 'error-input'}`} onChange={valueToState} value={email} />
+					<Input type="text" name="name" placeholder="Your Name" customClass={`footer__input ${formInputs.name ? '' : 'error-input'}`} onChange={valueToState} value={name} />
+					<Input type="email" name="email" placeholder="Your Email" customClass={`footer__input ${formInputs.email ? '' : 'error-input'}`} onChange={valueToState} value={email} />
 					<Button type={'submit'} customClass="footer__button" buttonStyle="button__outline">Subscribe</Button>
 				</form>
 				<SubModal
