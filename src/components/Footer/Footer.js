@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Button from '../Button/Button.js'
+import SubModal from '../SubscriptionModal/SubscriptionModal.js'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWalking } from '@fortawesome/free-solid-svg-icons/faWalking'
@@ -54,7 +55,7 @@ function Footer() {
 	const [nameValid, setnameValid] = useState(false)
 	const [email, setEmail] = useState('')
 	const [emailValid, setemailValid] = useState(false)
-	const [formInputs, setformInputs] = useState({ email: false, name: false })
+	const [formInputs, setformInputs] = useState({ email: true, name: true })
 	const [formValid, setformValid] = useState(false)
 
 	const valueToState = (e) => {
@@ -72,20 +73,29 @@ function Footer() {
 			default:
 				break
 		}
-		validateForm()
-	}
-
-	const validateForm = () => {
-		setformValid(nameValid && emailValid)
 	}
 
 	const submitForm = (e) => {
 		e.preventDefault();
 		setformInputs({
 			...formInputs,
-			name: !nameValid,
-			email: !emailValid,
+			name: nameValid,
+			email: emailValid,
 		})
+		setformValid(nameValid && emailValid)
+	}
+
+	const cancelForm = () => {
+		setName('')
+		setEmail('')
+		setemailValid(false)
+		setnameValid(false)
+		setformInputs({
+			...formInputs,
+			name: true,
+			email: true,
+		})
+		setformValid(false)
 	}
 
 	return (
@@ -94,10 +104,16 @@ function Footer() {
 				<p className="footer__title">Lorem ipsum dolor sit amet consectetur</p>
 				<div className="footer__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate deleniti voluptate quaerat perferendis tenetur alias dolore, placeat sit? Et animi neque placeat hic nulla voluptates excepturi repellendus. Laborum, nihil.</div>
 				<form onSubmit={submitForm} className="footer__form">
-					<input type="text" name="name" placeholder="Your Name" className={`footer__input ${formInputs.name ? 'error-input' : ''}`} onChange={valueToState} value={name} />
-					<input type="email" name="email" placeholder="Your Email" className={`footer__input ${formInputs.email ? 'error-input' : ''}`} onChange={valueToState} value={email} />
+					<input type="text" name="name" placeholder="Your Name" className={`footer__input ${formInputs.name ? '' : 'error-input'}`} onChange={valueToState} value={name} />
+					<input type="email" name="email" placeholder="Your Email" className={`footer__input ${formInputs.email ? '' : 'error-input'}`} onChange={valueToState} value={email} />
 					<Button type={'submit'} customClass="footer__button" buttonStyle="button__outline">Subscribe</Button>
 				</form>
+				<SubModal
+					isOpen={formValid}
+					onCancel={cancelForm}
+				>
+					<p>{name}! Thank you for subscribe!</p>
+				</SubModal>
 				<div className="footer__link-blocks">
 					{
 						footerLinks.map((elem, index) => {

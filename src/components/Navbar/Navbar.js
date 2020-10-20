@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Button from '../Button/Button.js'
+import SubscriptionModal from '../SubscriptionModal/SubscriptionModal.js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimes } from '@fortawesome/free-solid-svg-icons/faTimes'
 import { faBars } from '@fortawesome/free-solid-svg-icons/faBars'
