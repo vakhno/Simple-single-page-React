@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Button from '../Button/Button.js'
 import Portal from '../Portal/Portal.js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -30,21 +29,6 @@ function SubscriptionModal({ isOpen, onCancel, onSubmit, children }) {
 			}
 		</>
 	)
-}
-
-SubscriptionModal.propTypes = {
-	isOpen: PropTypes.bool,
-	onCancel: PropTypes.func,
-	onSubmit: PropTypes.func,
-	children: PropTypes.node
-}
-
-SubscriptionModal.defaultProps = {
-	title: 'Modal title',
-	isOpen: false,
-	onCancel: () => { },
-	onSubmit: () => { },
-	children: null
 }
 
 export default SubscriptionModal

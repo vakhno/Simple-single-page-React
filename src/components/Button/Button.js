@@ -14,7 +14,7 @@ Button.propTypes = {
 	customClass: PropTypes.string,
 	buttonStyle: PropTypes.string,
 	buttonSize: PropTypes.string,
-	children: PropTypes.string,
+	children: PropTypes.node,
 	linkTo: PropTypes.string,
 	onClick: PropTypes.func,
 	type: PropTypes.string,

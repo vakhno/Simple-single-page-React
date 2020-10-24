@@ -1,0 +1,40 @@
+[
+	{
+		"cardItems": [
+			{
+				"image": "/images/img-9.jpg",
+				"description": "Explore the hidden waterfall deep inside the Amazon",
+				"label": "Adventure",
+				"link": "/"
+			},
+			{
+				"image": "/images/img-2.jpg",
+				"description": "Travel throight the Island of Bali",
+				"label": "Luxury",
+				"link": "/"
+			}
+		]
+	},
+	{
+		"cardItems": [
+			{
+				"image": "/images/img-9.jpg",
+				"description": "Explore the hidden waterfall deep inside the Amazon",
+				"label": "Adventure",
+				"link": "/"
+			},
+			{
+				"image": "/images/img-2.jpg",
+				"description": "Travel throight the Island of Bali",
+				"label": "Luxury",
+				"link": "/"
+			},
+			{
+				"image": "/images/img-2.jpg",
+				"description": "Travel throight the Island of Bali",
+				"label": "Luxury",
+				"link": "/"
+			}
+		]
+	}
+]

@@ -10,24 +10,10 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons/faYoutube'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin'
+import * as FooterLinks from '../../FooterLinks.json'
 import '../../App.sass'
 import '../Footer/Footer.sass'
-const footerLinks = [{
-	title: 'About Us',
-	links: [{ name: 'How it works', link: '/', internalLink: true }, { name: 'Testomonials', link: '/', internalLink: true }, { name: 'Careers', link: '/', internalLink: true }, { name: 'Investors', link: '/', internalLink: true }, { name: 'Terms of Service', link: '/', internalLink: true }]
-},
-{
-	title: 'Contact Us',
-	links: [{ name: 'Contact', link: '/', internalLink: true }, { name: 'Support', link: '/', internalLink: true }, { name: 'Destinations', link: '/', internalLink: true }, { name: 'Sponsorships', link: '/', internalLink: true }]
-},
-{
-	title: 'Videos',
-	links: [{ name: 'Submit Video', link: '/', internalLink: true }, { name: 'Ambassadors', link: '/', internalLink: true }, { name: 'Agency', link: '/', internalLink: true }, { name: 'Influencer', link: '/', internalLink: true }]
-},
-{
-	title: 'Videos',
-	links: [{ name: 'Instagram', link: 'https://www.instagram.com/', internalLink: false }, { name: 'Facebook', link: 'https://uk-ua.facebook.com/', internalLink: false }, { name: 'Youtube', link: 'https://www.youtube.com/', internalLink: false }, { name: 'Twitter', link: 'https://twitter.com/?lang=en', internalLink: false }]
-}]
+
 const socialLinks = [{
 	title: 'Facebook',
 	link: 'https://uk-ua.facebook.com/',
@@ -117,7 +103,7 @@ function Footer() {
 				</SubModal>
 				<div className="footer__link-blocks">
 					{
-						footerLinks.map((elem, index) => {
+						FooterLinks.default.map((elem, index) => {
 							return (
 								<div key={index} className="footer__link-block link-block">
 									<div className="link-block__title">{elem.title}</div>

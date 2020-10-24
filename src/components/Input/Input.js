@@ -18,7 +18,7 @@ Input.propTypes = {
 
 Input.defaultProps = {
 	onChange: () => { },
-	inputStyle: 'button__primary',
+	inputStyle: 'input__primary',
 	type: 'text',
 	name: '',
 	placeholder: '',

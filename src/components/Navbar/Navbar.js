@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Button from '../Button/Button.js'
-import SubscriptionModal from '../SubscriptionModal/SubscriptionModal.js'
+import SignInModal from '../SignInModal/SignInModal.js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimes } from '@fortawesome/free-solid-svg-icons/faTimes'
 import { faBars } from '@fortawesome/free-solid-svg-icons/faBars'
@@ -23,6 +23,7 @@ function Navbar() {
 	const menuBurgerIcon = <FontAwesomeIcon icon={faBars} />
 	const logoIcon = <FontAwesomeIcon icon={faWalking} />
 	const [isMenuOpened, setIsMenuOpened] = useState(false)
+	const [isOpen, setIsOpen] = useState(false)
 	const closeMobileMenu = () => setIsMenuOpened(false)
 	const handleClick = () => setIsMenuOpened(!isMenuOpened)
 	const showButton = () => {
@@ -68,7 +69,12 @@ function Navbar() {
 								})
 							}
 						</ul>
-						<Button buttonStyle='button__outline'>SIGN UP</Button>
+						<Button buttonStyle='button__outline' onClick={() => { setIsOpen(!isOpen) }}>SIGN IN</Button>
+						<SignInModal
+							isOpen={isOpen}
+							onCancel={() => { setIsOpen(false) }}
+						>
+						</SignInModal>
 					</div>
 				</div>
 			</nav>

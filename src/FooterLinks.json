@@ -1,0 +1,107 @@
+[
+	{
+		"title": "About Us",
+		"links": [
+			{
+				"name": "How it works",
+				"link": "/",
+				"internallink": true
+			},
+			{
+				"name": "Testomonials",
+				"link": "/",
+				"internallink": true
+			},
+			{
+				"name": "Careers",
+				"link": "/",
+				"internallink": true
+			},
+			{
+				"name": "Investors",
+				"link": "/",
+				"internallink": true
+			},
+			{
+				"name": "Terms of Service",
+				"link": "/",
+				"internallink": true
+			}
+		]
+	},
+	{
+		"title": "Contact Us",
+		"links": [
+			{
+				"name": "Contact",
+				"link": "/",
+				"internallink": true
+			},
+			{
+				"name": "Support",
+				"link": "/",
+				"internallink": true
+			},
+			{
+				"name": "Destinations",
+				"link": "/",
+				"internallink": true
+			},
+			{
+				"name": "Sponsorships",
+				"link": "/",
+				"internallink": true
+			}
+		]
+	},
+	{
+		"title": "Videos",
+		"links": [
+			{
+				"name": "Submit Video",
+				"link": "/",
+				"internallink": true
+			},
+			{
+				"name": "Ambassadors",
+				"link": "/",
+				"internallink": true
+			},
+			{
+				"name": "Agency",
+				"link": "/",
+				"internallink": true
+			},
+			{
+				"name": "Influencer",
+				"link": "/",
+				"internallink": true
+			}
+		]
+	},
+	{
+		"title": "Videos",
+		"links": [
+			{
+				"name": "Instagram",
+				"link": "https: //www.instagram.com/",
+				"internallink": false
+			},
+			{
+				"name": "Facebook",
+				"link": "https://uk-ua.facebook.com/",
+				"internallink": false
+			},
+			{
+				"name": "Youtube",
+				"link": "https://www.youtube.com/",
+				"internallink": false
+			},
+			{
+				"name": "Twitter",
+				"link": "https://twitter.com/?lang=en",
+				"internallink": false
+			}
+		]
+	}
+]
