@@ -1,6 +1,6 @@
 {
-	"short_name": "Single Page",
-	"name": "Simple single page",
+	"short_name": "SinglePage",
+	"name": "Simple single page on react",
 	"icons": [],
 	"start_url": ".",
 	"display": "standalone",
