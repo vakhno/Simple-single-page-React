@@ -1,6 +1,6 @@
-import React from 'react';
-import Navbar from './components/Navbar/Navbar.js';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import React from 'react'
+import Navbar from './components/Navbar/Navbar.js'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.sass';
 import Home from './components/pages/Home'
 import SignIn from './components/pages/signIn'
@@ -18,7 +18,7 @@ function App() {
 				</Switch>
 			</Router>
 		</>
-	);
+	)
 }
 
-export default App;
+export default App
