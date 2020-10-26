@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[See result](https://vakhno.github.io/Simple-single-page-React/)
 
 ## Available Scripts
 
