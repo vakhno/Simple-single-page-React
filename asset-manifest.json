@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "https://dsomething.cloudfront.net/static/css/main.fa9f19eb.chunk.css",
-    "main.js": "https://dsomething.cloudfront.net/static/js/main.567463a2.chunk.js",
-    "main.js.map": "https://dsomething.cloudfront.net/static/js/main.567463a2.chunk.js.map",
+    "main.js": "https://dsomething.cloudfront.net/static/js/main.d0f805ec.chunk.js",
+    "main.js.map": "https://dsomething.cloudfront.net/static/js/main.d0f805ec.chunk.js.map",
     "runtime-main.js": "https://dsomething.cloudfront.net/static/js/runtime-main.cd38873b.js",
     "runtime-main.js.map": "https://dsomething.cloudfront.net/static/js/runtime-main.cd38873b.js.map",
     "static/js/2.c82f487d.chunk.js": "https://dsomething.cloudfront.net/static/js/2.c82f487d.chunk.js",
     "static/js/2.c82f487d.chunk.js.map": "https://dsomething.cloudfront.net/static/js/2.c82f487d.chunk.js.map",
     "index.html": "https://dsomething.cloudfront.net/index.html",
     "static/css/main.fa9f19eb.chunk.css.map": "https://dsomething.cloudfront.net/static/css/main.fa9f19eb.chunk.css.map",
-    "static/js/2.c82f487d.chunk.js.LICENSE.txt": "https://dsomething.cloudfront.net/static/js/2.c82f487d.chunk.js.LICENSE.txt",
-    "static/media/video-2.39e6c79b.mp4": "https://dsomething.cloudfront.net/static/media/video-2.39e6c79b.mp4"
+    "static/js/2.c82f487d.chunk.js.LICENSE.txt": "https://dsomething.cloudfront.net/static/js/2.c82f487d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cd38873b.js",
     "static/js/2.c82f487d.chunk.js",
     "static/css/main.fa9f19eb.chunk.css",
-    "static/js/main.567463a2.chunk.js"
+    "static/js/main.d0f805ec.chunk.js"
   ]
 }
