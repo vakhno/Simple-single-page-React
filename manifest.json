@@ -2,7 +2,7 @@
 	"short_name": "SinglePage",
 	"name": "Simple single page on react",
 	"icons": [],
-	"start_url": ".",
+	"start_url": "https://vakhno.github.io/Simple-single-page-React/",
 	"display": "standalone",
 	"theme_color": "#000000",
 	"background_color": "#ffffff"
