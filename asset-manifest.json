@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "https://dsomething.cloudfront.net/static/css/main.fa9f19eb.chunk.css",
-    "main.js": "https://dsomething.cloudfront.net/static/js/main.7aa5bdb8.chunk.js",
-    "main.js.map": "https://dsomething.cloudfront.net/static/js/main.7aa5bdb8.chunk.js.map",
-    "runtime-main.js": "https://dsomething.cloudfront.net/static/js/runtime-main.cd38873b.js",
-    "runtime-main.js.map": "https://dsomething.cloudfront.net/static/js/runtime-main.cd38873b.js.map",
-    "static/js/2.c82f487d.chunk.js": "https://dsomething.cloudfront.net/static/js/2.c82f487d.chunk.js",
-    "static/js/2.c82f487d.chunk.js.map": "https://dsomething.cloudfront.net/static/js/2.c82f487d.chunk.js.map",
-    "index.html": "https://dsomething.cloudfront.net/index.html",
-    "static/css/main.fa9f19eb.chunk.css.map": "https://dsomething.cloudfront.net/static/css/main.fa9f19eb.chunk.css.map",
-    "static/js/2.c82f487d.chunk.js.LICENSE.txt": "https://dsomething.cloudfront.net/static/js/2.c82f487d.chunk.js.LICENSE.txt",
-    "static/media/video-2.39e6c79b.mp4": "https://dsomething.cloudfront.net/static/media/video-2.39e6c79b.mp4"
+    "main.css": "/Simple-single-page-React/static/css/main.fa9f19eb.chunk.css",
+    "main.js": "/Simple-single-page-React/static/js/main.7aa5bdb8.chunk.js",
+    "main.js.map": "/Simple-single-page-React/static/js/main.7aa5bdb8.chunk.js.map",
+    "runtime-main.js": "/Simple-single-page-React/static/js/runtime-main.db19a9e4.js",
+    "runtime-main.js.map": "/Simple-single-page-React/static/js/runtime-main.db19a9e4.js.map",
+    "static/js/2.c82f487d.chunk.js": "/Simple-single-page-React/static/js/2.c82f487d.chunk.js",
+    "static/js/2.c82f487d.chunk.js.map": "/Simple-single-page-React/static/js/2.c82f487d.chunk.js.map",
+    "index.html": "/Simple-single-page-React/index.html",
+    "static/css/main.fa9f19eb.chunk.css.map": "/Simple-single-page-React/static/css/main.fa9f19eb.chunk.css.map",
+    "static/js/2.c82f487d.chunk.js.LICENSE.txt": "/Simple-single-page-React/static/js/2.c82f487d.chunk.js.LICENSE.txt",
+    "static/media/video-2.39e6c79b.mp4": "/Simple-single-page-React/static/media/video-2.39e6c79b.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.cd38873b.js",
+    "static/js/runtime-main.db19a9e4.js",
     "static/js/2.c82f487d.chunk.js",
     "static/css/main.fa9f19eb.chunk.css",
     "static/js/main.7aa5bdb8.chunk.js"
