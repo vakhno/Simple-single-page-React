@@ -39,14 +39,10 @@
 			color: #fff
 .nav
 	&__items
-		display: grid
-		grid-template-columns: repeat(auto-fit, minmax(100px, auto))
-		grid-gap: 20px
+		display: flex
+		justify-content: flex-end
 		list-style: none
 		text-align: center
-		flex-grow: 1
-		justify-items: center
-		justify-content: end
 		margin-right: 42px
 	&__menu
 		flex-grow: 1
@@ -75,10 +71,18 @@
 @media screen and (max-width: 960px)
 	.nav
 		&__items
+			display: flex
+			flex-direction: column
 			margin-top: 46px
 			flex-grow: 0
 			margin-right: 0
-			grid-template-columns: 1fr !important
+			width: 100%
+			justify-content: center
+			align-items: center
+		&__item
+			width: 100%
+			&:last-of-type
+				margin-bottom: 30px
 		&__menu
 			flex-direction: column
 			justify-content: flex-start
@@ -96,10 +100,9 @@
 			transition: all 0.5s ease
 			z-index: 1
 		&__links
-			text-align: center
-			// padding: 32px
 			width: 100%
-			display: block
+			display: flex
+			justify-content: center
 			&:hover
 				background-color: #fff
 				color: #242424
