@@ -7,7 +7,7 @@ const CardItem = ({ customClass, imageSrc, children, label, linkTo }) => {
 	return (
 		<Link to={linkTo} className={`card__item-link card ${customClass}`}>
 			<figure className="card__item-pic-wrap" data-category={label}>
-				<img src={imageSrc} alt="TravelImage" className="card__item-img" />
+				<img src={process.env.PUBLIC_URL + imageSrc} alt="TravelImage" className="card__item-img" />
 			</figure>
 			<div className="card__item-info">
 				<h5 className="card__item-text">{children}</h5>

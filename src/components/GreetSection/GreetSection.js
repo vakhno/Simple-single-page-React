@@ -2,13 +2,13 @@ import React from 'react'
 import '../../App.sass'
 import Button from '../Button/Button.js'
 import './GreetSection.sass'
-import BgContent from '../../videos/video-2.mp4'
+// import BgContent from '/videos/video-2.mp4'
 
 function GreetSection() {
 	return (
 		<div className="greeting">
 			<div className="greeting__container">
-				<video src={BgContent} autoPlay loop muted className="greeting__video" />
+				<video src={process.env.PUBLIC_URL + '/videos/video-2.mp4'} autoPlay loop muted className="greeting__video" />
 				<div className="greeting__content">
 					<div className="greeting__info">
 						<h1 className="greeting__title">ADVENTURE AWAITS</h1>
