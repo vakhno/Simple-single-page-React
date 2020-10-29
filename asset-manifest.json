@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/Simple-single-page-React/static/css/main.fa9f19eb.chunk.css",
-    "main.js": "/Simple-single-page-React/static/js/main.655e650b.chunk.js",
-    "main.js.map": "/Simple-single-page-React/static/js/main.655e650b.chunk.js.map",
+    "main.js": "/Simple-single-page-React/static/js/main.ddbaf6dd.chunk.js",
+    "main.js.map": "/Simple-single-page-React/static/js/main.ddbaf6dd.chunk.js.map",
     "runtime-main.js": "/Simple-single-page-React/static/js/runtime-main.db19a9e4.js",
     "runtime-main.js.map": "/Simple-single-page-React/static/js/runtime-main.db19a9e4.js.map",
     "static/js/2.c82f487d.chunk.js": "/Simple-single-page-React/static/js/2.c82f487d.chunk.js",
     "static/js/2.c82f487d.chunk.js.map": "/Simple-single-page-React/static/js/2.c82f487d.chunk.js.map",
     "index.html": "/Simple-single-page-React/index.html",
     "static/css/main.fa9f19eb.chunk.css.map": "/Simple-single-page-React/static/css/main.fa9f19eb.chunk.css.map",
-    "static/js/2.c82f487d.chunk.js.LICENSE.txt": "/Simple-single-page-React/static/js/2.c82f487d.chunk.js.LICENSE.txt",
-    "static/media/video-2.39e6c79b.mp4": "/Simple-single-page-React/static/media/video-2.39e6c79b.mp4"
+    "static/js/2.c82f487d.chunk.js.LICENSE.txt": "/Simple-single-page-React/static/js/2.c82f487d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.db19a9e4.js",
     "static/js/2.c82f487d.chunk.js",
     "static/css/main.fa9f19eb.chunk.css",
-    "static/js/main.655e650b.chunk.js"
+    "static/js/main.ddbaf6dd.chunk.js"
   ]
 }
